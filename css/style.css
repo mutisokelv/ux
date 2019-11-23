@@ -399,7 +399,7 @@ border-radius: 10px;
 	z-index: 2;
 }
 .prt_menu_wrapper{
-	text-align:center;
+	text-align:center!important;
 }
 .prt_menu_wrapper a{
     padding: 5px;
@@ -422,7 +422,7 @@ border-radius: 10px;
     -o-transition: all 0.3s;
     transition: all 0.3s;
     border: violet groove;
-    border-radius: 7%;
+    border-radius: 7px;
 }
 .prt_menu_wrapper a:hover {
   -webkit-mask-image: linear-gradient(-75deg, rgba(0,0,0,.6) 30%, #000 50%, rgba(0,0,0,.6) 70%);
@@ -457,7 +457,7 @@ border-radius: 10px;
 	bottom:45px;
 	left:0px;
 	right:0px;
-	width:150px;
+	width:170px;
 }
 .prt_menu_wrapper a.prt_left{
 	top:50%;
@@ -1003,14 +1003,15 @@ border-radius: 10px;
     -o-transition: all 0.3s;
     transition: all 0.3s;
 }
-.prt_contact_details_box.details_box1{
-	background-image:url(../images/content/dtl_box1.jpg);
+.prt_contact_details_box.details_box1:hover{
+color: #25D366}
+.prt_contact_details_box.details_box2:hover{
+    color: #D44638;
+                    
 }
-.prt_contact_details_box.details_box2{
-	background-image:url(../images/content/dtl_box2.jpg);
-}
-.prt_contact_details_box.details_box3{
-	background-image:url(../images/content/dtl_box3.jpg);
+.prt_contact_details_box.details_box3:hover{
+
+    color: #4A89F3;
 }
 /*---------- Services css Start -------*/
 .prt_services_wrapper{
@@ -1467,7 +1468,7 @@ border-radius: 10px;
 	display:inline-block;
 	width:auto;
 	list-style:none;
-	margin:0px 0px;
+	margin:0px 5px;
 }
 .prt_footer_wrapper ul li:last-child{
 	margin-right:0px;
@@ -1488,16 +1489,43 @@ border-radius: 10px;
     -ms-transition: all 0.3s;
     -o-transition: all 0.3s;
     transition: all 0.3s;
+    padding: 10px!important;
 }
 .prt_footer_wrapper ul li a:hover{
-	color:#ffffff;
-	background-color:violet;
+font-size: larger;
+	/* background-color:  ; */
 	-webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     -ms-transition: all 0.3s;
     -o-transition: all 0.3s;
     transition: all 0.3s;
 }
+
+.prt_footer_wrapper .item1 a:hover{
+color: #25D366;
+}
+.prt_footer_wrapper .item2 a:hover{
+    color: #2867B2;
+    }
+    .prt_footer_wrapper .item3 a:hover{
+        color: #053eff;
+        }
+        .prt_footer_wrapper .item4 a:hover{
+            color: #1DA1F2;
+            }
+            .prt_footer_wrapper .item5 a:hover{
+                color: #333;
+                }
+                .prt_footer_wrapper .item6 a:hover{
+                    color: #D44638;
+                    }
+                    .prt_footer_wrapper .item7 a:hover{
+                        color: #4A89F3;
+                        }
+/* .prt_contact_details .prt_contact_details_box .item1 h4:hover{
+    background: #25D366!important;
+    color: #25D366!important;
+} */
 /*---------- Main Wrapper css End -------*/
 /*---------- Responsive css Start -------*/
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -1604,6 +1632,24 @@ border-radius: 10px;
     margin: 0px auto;
 }
 }
+
+@media only screen and (max-width: 600px) {
+    .prt_menu_wrapper a.prt_top{
+        top: 5px;
+    }
+    .prt_menu_wrapper a.prt_left{
+        left: -55px;
+    }
+    .prt_menu_wrapper a.prt_bottom{
+        bottom: 10px;
+       
+    }
+    .prt_menu_wrapper a.prt_right{
+        right: -40px;
+    }
+}
+
+
 @media (min-width: 620px) and (max-width: 700px) {
 .prt_services_slider_imgs {
     margin-left: 120px;
