@@ -104,7 +104,7 @@ body {
     font: 400 16px/1.8 'Quicksand', sans-serif;
     color: #333;
     width: 100% !important;
-    background-color: #F8F8FF;
+    background-color: rgb(220, 220, 253);
 }
 
 ol,
@@ -286,19 +286,21 @@ a {
 }
 
 .b-box {
-    background: #5F1B4D;
+    background: #DCDCFD;
     border-radius: 5px;
-    overflow: hidden;
-    border: 10px solid rgb(255, 255, 255);
+    overflow: auto;
+    /* border: 10px solid rgb(255, 255, 255); */
     -webkit-transition: all .3s ease-in-out 0s;
     -moz-transition: all .3s ease-in-out 0s;
     -ms-transition: all .3s ease-in-out 0s;
     -o-transition: all .3s ease-in-out 0s;
     transition: all .3s ease-in-out 0s;
+    /* margin-left: 1px!important;
+    margin-right: 1px!important; */
 }
 
 .hover-state:hover {
-    transform: translateY(-15px);
+    transform: translateY(-5px);
     box-shadow: 0 6px 10px rgba(134, 151, 168, .1)
 }
 
@@ -747,8 +749,8 @@ a {
 
 .section-about {
     margin: 0 auto;
-    max-width: calc(1140px - 30px);
-    background: #fff;
+    /* max-width: calc(1140px - 30px); */
+    background: rgb(220, 220, 253);
     margin-top: -200px;
     z-index: 100;
     position: relative;
@@ -781,7 +783,7 @@ a {
     left: 0;
     right: 0;
     width: 90%;
-    background: #fff;
+    background: rgb(220, 220, 253);
     display: block;
     height: 70%;
     bottom: 0;
@@ -816,7 +818,7 @@ a {
 }
 
 .about-desc-content p {
-    font-size: 20px
+    font-size: 15px
 }
 
 .about-desc-social li {
@@ -929,7 +931,7 @@ a {
 
 .section-services {
     padding-bottom: 80px;
-    background-color: #F8F8FF;
+    background-color: rgb(220, 220, 253);
 }
 
 .services-list-icon {
@@ -1401,5 +1403,27 @@ a {
     }
     .section-resume .section-head {
         margin-bottom: 30px
+    }
+}
+
+
+/* mobile first */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .section-about img {
+        height: 160px;
+        margin: 0 auto;
+        width: 250px;
+        border-radius: 10px;
+        margin-top: 2rem;
+    }
+    /* .services-list-front {
+        height: 80%!important;
+    } */
+    /* .services-list-back {
+        height: 80%!important;
+    } */
+    .section-about-wrap {
+        padding: 5%;
     }
 }
