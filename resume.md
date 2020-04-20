@@ -1,24 +1,28 @@
 Kelvin Mutiso
 ======
 
-#### I am a UX/UI Designer and a front-end we developer. 
-###### [ [mutisokelv.github.io](http://mutisokelv.github.io) ] . [ kelvinmutiso@gmail.com ] . [ +254 779 025 590 ]
+#### I am a UX/UI Designer and a front-end web developer. 
+###### [ [www.iamkelv.co](https://iamkelv.co) ] . [ kelvinmutiso1@gmail.com ] . [ +254 779 025 590 ]
 
 
 Experience
 ---------
 **UX/UI Designer** (Jan 2020-present, LimaTech Data Ltd)
 
-- User research and concept creation and wireframe development.
+- User research, concept creation and wireframe development.
 
 **UI & Visual Designer / Web Developer** (Apr 2019-Dec 2019, Dotsh Africa)
 
 - Planned and delivered both web and mobile visuals for web app.
 - Developed angular applications.
 
-**Design Engineer Intern** (May 2019-July 2019, Adrian Kenya Group)
+**Design Engineer Intern** (May 2019-July 2019, Adrian Kenya)
 
 - Developed AI and ML solutions.
+
+**Freelancer Developer** (Dec 2017-present)
+
+- Developing websites, web apps and designing user interfaces.
 
 
 Education
@@ -31,7 +35,7 @@ Education
 
 - 3.6/4.0 GPA
 
-**UX/UI Design, Modcom Institute** (2018)
+**UX/UI Design, ModCom Institute** (2018)
 
 - UI training
 
@@ -39,7 +43,7 @@ Education
 
 - NanoDegree
 
-**iOS Developement, Pluralsight** (ongoing)
+**iOS Developement, PluralSight** (ongoing)
 
 - Path
 
@@ -52,14 +56,20 @@ Skills
 
 **Design:** Adobe XD, Figma Mobile UI, Website Design, Photoshop, Illustrator,
 
-Certifications
+Certifications & Awards
 ------
-- **Certificate of Membership**, The Interaction Design Foundation.
+- **Certificate of Membership**, The Interaction Design Foundation (2020)
 - **Certificate of Leadership**, School Representative, Riara University (2018/2019)
 - **Certificate of Completion**, KamiLimu (2019). Structured Mentorship Program.
+- **Certificate of Award**, Intervarsity Competition, (2018 & 2019). Winner, Web Development Division.
+
 
 Portfolio
 --------
-**[*iamkelv.co* About me](https://iamkelv.co/)**
+**[Website](https://iamkelv.co/)**
 
-- Tells more about my achievements, abilities and projects.  
+**[Github](https://github.com/MutisoKelv)**
+
+**[LinkedIn](https://www.linkedin.com/in/kelv-mutiso/)**
+
+**[Resume](https://iamkelv.co/resume.pdf)**
