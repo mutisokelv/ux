@@ -56,7 +56,7 @@ Skills
 ------
 **Programming:** Python, Angular, React JS, Swift, git, HTML/CSS
 
-**Design:** Adobe XD, Figma Mobile UI, Website Design, Photoshop, Illustrator,
+**Design:** Adobe XD, Figma, Mobile UI, Website Design, Photoshop, Illustrator,
 
 Certifications & Awards
 ------
