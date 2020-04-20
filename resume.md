@@ -2,7 +2,7 @@ Kelvin Mutiso
 ======
 
 #### I am a UX/UI Designer and a front-end web developer. 
-###### [ [www.iamkelv.co](https://iamkelv.co) ] . [ kelvinmutiso1@gmail.com ] . [ +254 779 025 590 ]
+###### [ [www.iamkelv.co](https://iamkelv.co) ] . [ kelvinmutiso1@gmail.com ] . [ +254 779 025 590 ] . [ 22 years old ]
 
 
 Experience
