@@ -169,7 +169,7 @@ a:visited {
 p {
     color: #6e7373;
     font-weight: 300;
-    font-family: 'Quicksand', sans-serif;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Ubuntu, Arial, sans-serif;
 }
 
 h1,
