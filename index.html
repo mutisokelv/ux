@@ -33,6 +33,8 @@
     <meta name="theme-color" content="#ffffff">
     <!-- favicons -->
 
+
+
 </head>
 
 <body data-spy="scroll" data-target=".navbar">
@@ -444,11 +446,11 @@
                 <div class="section-head text-center">
                     <h2>My Works</h2>
                 </div>
-            </div> 
+            </div>
 
 
             <div class="row mt-4" style="padding-left: 20px!important; padding-right: 20px!important;">
-                <div class="col-sm-12 col-lg-4 resume-list b-box hover-state p-4 mt-4 wow fadeInUp" data-wow-duration="1.5s" >
+                <div class="col-sm-12 col-lg-4 resume-list b-box hover-state p-4 mt-4 wow fadeInUp" data-wow-duration="1.5s">
                     <a href="https://www.dotsh.africa/" target="_blank">
                         <div>
                             <img src="./assets/images/dotsh.jpg" alt="Dotsh Limited">
@@ -456,7 +458,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-sm-12 col-lg-4 resume-list b-box hover-state p-4 mt-4 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".2s" >
+                <div class="col-sm-12 col-lg-4 resume-list b-box hover-state p-4 mt-4 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".2s">
                     <a href="http://lehome.zerone.co.ke/" target="_blank">
                         <div>
                             <img src="./assets/images/lehome.jpg" alt="The Lord Erroll Gourmet Restaurant">
@@ -464,7 +466,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-sm-12 col-lg-4 resume-list b-box hover-state p-4 mt-4 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".3s" >
+                <div class="col-sm-12 col-lg-4 resume-list b-box hover-state p-4 mt-4 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".3s">
                     <a href="https://www.limatech.co.ke/" target="_blank">
                         <div>
                             <img src="./assets/images/limatech.jpg" alt="LimaTech Data Limited">
@@ -656,7 +658,7 @@
 
 
 
-       
+
 
         <!-- START: CONTACT -->
         <section class="section section-dark section-contact" id="contact">
@@ -696,6 +698,8 @@
                         </div>
                     </div>
                 </div>
+            </div>
+            <div class="survicate-body">
             </div>
         </section>
         <!-- END: CONTACT -->
@@ -747,14 +751,37 @@
     </div>
 
 
-    
+
     <!-- JAVASCRIPTS -->
+
+    <script type="text/javascript">
+        function xgetParameterByName(name, url) {
+            if (!url) url = window.location.href;
+            name = name.replace(/[\[\]]/g, "\\$&");
+            var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+                results = regex.exec(url);
+            if (!results) return null;
+            if (!results[2]) return '';
+            return decodeURIComponent(results[2].replace(/\+/g, " "));
+        }
+        (function(w) {
+            w._svc = w._svc || {};
+            w._svc.workspaceId = 44379;
+            var s = document.createElement('script');
+            var sid = xgetParameterByName('sid');
+            s.src = '//survey.survicate.com/workspaces/53006efec751e03d9fad6c33269ce4c5/surveys/' + sid + '.js';
+            s.async = true;
+            var e = document.getElementsByTagName('script')[0];
+            e.parentNode.insertBefore(s, e);
+        })(window);
+    </script>
+
     <script src="assets/js/vendor.js"></script>
     <!-- Particles js -->
     <script src="assets/js/particles.min.js"></script>
     <script src="assets/js/particlesjs-config-2.js"></script>
 
-<!-- Custom Js -->
+    <!-- Custom Js -->
     <script src="assets/js/custom.js"></script>
 </body>
 
