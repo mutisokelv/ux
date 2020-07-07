@@ -515,7 +515,7 @@ mark {
 
 .img-thumbnail {
     padding: .25rem;
-    background-color: #fff;
+    /* background-color: #fff; */
     border: 1px solid #dee2e6;
     border-radius: .25rem;
     max-width: 100%;
@@ -8288,7 +8288,8 @@ button.bg-dark:hover {
 
 .mt-3,
 .my-3 {
-    margin-top: 1rem !important
+    margin-top: 1rem !important;
+    color: white!important;
 }
 
 .mr-3,
