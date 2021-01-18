@@ -365,6 +365,15 @@
         }
     }
     
+    .whatsapp:hover a {
+        color: #25D366!important;
+    }
+    
+    .linkedin:hover a {
+        color: #6babfa!important;
+        background-color: white!important;
+    }
+    
     .hide {
         display: none;
         color: white;
@@ -375,30 +384,15 @@
         font-size: 20px;
     }
     
-    .whatsapp:hover {
-        .show1 {
-            display: none;
-        }
-        .hide1 {
-            display: inline;
-        }
-    }
-    
-    .hide1 {
-        display: none;
-        color: white;
-        font-size: larger;
-    }
-    
-    .hide1 p {
-        font-size: 20px;
-    }
-    
     .whatsapp {
         cursor: pointer;
     }
     
     .mobile {
+        cursor: pointer;
+    }
+    
+    .linkedin {
         cursor: pointer;
     }
     
