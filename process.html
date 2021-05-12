@@ -62,7 +62,6 @@
                         <li><a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/kelvin-mutiso/30mins'});return false;">Schedule time with me</a></li>
                         <li><a href="#contact">Contact</a></li>
 
-
                     </ul>
                 </div>
             </div>
@@ -76,68 +75,69 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="text-container">
-                        <h3 class="wow fadeInUp" data-wow-delay="0.2s">I am</h3>
-                        <h2 class="wow fadeInUp" data-wow-delay="0.3s">Kelvin Mutiso</h2>
+                        <!-- <h3 class="wow fadeInUp" data-wow-delay="0.2s">I am</h3>
+                        <h2 class="wow fadeInUp" data-wow-delay="0.3s">My Works</h2> -->
                         <h1 class="blinkdiv wow fadeInUp" data-wow-delay="0.3s">
                             <span class="type2"></span>
                         </h1>
-                        <br />
-                        <p class="text wow fadeInUp" data-wow-delay="0.4s">
+                        <!-- <br /> -->
+                        <!-- <p class="text wow fadeInUp" data-wow-delay="0.4s">
                             I design intuitive interfaces and build usable products for
                             <span style="text-decoration: line-through">users</span> people.
                         </p>
                         <a class="btn-solid-reg wow fadeInUp" data-wow-delay="0.5s" href="#work">View UI Visuals <i class="fas fa-long-arrow-alt-down"></i></a>
-                        <a class="btn-solid-reg2 wow fadeInUp" data-wow-delay="0.5s" href="process.html">View my Process <i class="fas fa-long-arrow-alt-right"></i></a>
+                        <a class="btn-solid-reg2 wow fadeInUp" data-wow-delay="0.5s" href="about.html">View my Process <i class="fas fa-long-arrow-alt-right"></i></a> -->
+
+                        
                     </div>
                 </div>
             </div>
-            <div class="row">
+            <!-- <div class="row">
                 <div class="col-lg-12">
                     <div class="image-container wow fadeInUp" data-wow-delay="0.5s">
                         <img class="img-fluid" src="assets/images/Artboard – 1.png" alt="alternative" />
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
-        <div class="deco-white-circle-1 wow fadeInLeft" data-wow-delay="0.3s">
+        <!-- <div class="deco-white-circle-1 wow fadeInLeft" data-wow-delay="0.3s">
             <img src="assets/images/svg/Asset 7.svg" alt="alternative" />
         </div>
         <div class="deco-white-circle-2 wow fadeInRight" data-wow-delay="0.3s">
             <img src="assets/images/svg/Asset 1.svg" alt="alternative" />
-        </div>
+        </div> -->
 
     </header>
 
     <!--START: WORK -->
-    <section class="section section-work" id="work" style="
+    <section class="section " id="work" style="
         padding-left: 20px !important;
         padding-right: 20px !important;
         width: 100%;
       ">
-        <div class="container">
-            <div class="section-head text-center">
-                <h2 style="color:#0B315E">Works</h2>
-            </div>
-        </div>
+       
         <div class="container" style="text-align: center !important">
             <ul class="nav nav-pills mb-3 text-center" id="pills-tab" role="tablist"
                 style="display: flex; justify-content: center">
                 <li class="nav-item">
-                    <a class="nav-link active" id="pills-mobile-tab" data-toggle="pill" href="#pills-mobile" role="tab"
-                        aria-controls="pills-mobile" aria-selected="true">App UI Visuals</a>
+                    <a class="nav-link active" id="pills-cases-tab" data-toggle="pill" href="#pills-cases" role="tab"
+                        aria-controls="pills-cases" aria-selected="false">UX Case Studies</a>
                 </li>
+               
                 <li class="nav-item">
                     <a class="nav-link" id="pills-websites-tab" data-toggle="pill" href="#pills-websites" role="tab"
                         aria-controls="pills-websites" aria-selected="false">Websites</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="process.html" >UX Case Studies</a>
+                    <a class="nav-link " id="pills-mobile-tab" data-toggle="pill" href="#pills-mobile" role="tab"
+                        aria-controls="pills-mobile" aria-selected="true">App UI Visuals</a>
                 </li>
+               
             </ul>
             <div class="tab-content" id="pills-tabContent">
 
                 <!-- mobile -->
-                <div class="tab-pane fade show active" id="pills-mobile" role="tabpanel"
+                <div class="tab-pane fade " id="pills-mobile" role="tabpanel"
                     aria-labelledby="pills-mobile-tab">
                     <div class="row">
                         <div class="col-12 resume-list b-box hover-state mt-4 wow fadeInUp"
@@ -148,9 +148,8 @@
                         </div>
                         <div class="col-12 resume-list b-box hover-state mt-4 wow fadeInUp" data-wow-duration="1.5s"
                             data-wow-delay=".2s">
-                            <div >
-                                <img src="assets/images/app2v2.svg" style="max-height: 70%!important;"
-                                />
+                            <div>
+                                <img src="assets/images/app2v2.svg" />
                             </div>
                         </div>
                         <div class="col-12 resume-list b-box hover-state mt-4 wow fadeInUp" data-wow-duration="1.5s"
@@ -215,7 +214,7 @@
                 </div>
 
 <!-- ux case studies -->
-                <div class="tab-pane fade" id="pills-cases" role="tabpanel" aria-labelledby="pills-cases-tab">              
+                <div class="tab-pane fade show active" id="pills-cases" role="tabpanel" aria-labelledby="pills-cases-tab">              
                     <div class="row">
                             <div class="web col-12 resume-list b-box hover-state mt-4 wow fadeInUp"
                                 data-wow-duration="1.5s">
@@ -295,13 +294,11 @@
     <!-- END: CONTACT -->
 
 
-
-
     <script>
         //Custom JS
         document.addEventListener("DOMContentLoaded", function () {
             Typed.new(".type2", {
-                strings: ["an aspiring Product Designer", "a UX/UI Designer."],
+                strings: [ "Works"],
                 stringsElement: null,
                 // typing speed
                 typeSpeed: 100,
