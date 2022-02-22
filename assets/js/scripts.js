@@ -229,3 +229,5 @@ var swiper = new Swiper('.blog-slider', {
       clickable: true,
     }
   });
+
+  

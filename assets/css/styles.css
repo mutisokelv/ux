@@ -4206,11 +4206,11 @@ a:hover.back-to-top {
 /* menu */
 
 .text {
-    font-size: 28px;
+    font-size: 20px;
     width: 80%;
     margin-left: 10%;
     margin-left: 10%;
-    line-height: 48.5px;
+    line-height: 40px;
 }
 
 
@@ -4230,18 +4230,13 @@ header #particles-js {
     0% {
         color: #FF9D00;
     }
-    15% {
+    30% {
         color: #F1423B;
     }
-    45% {
-        color: #0B315E;
-    }
-    75% {
-        color: #F1423B;
-    }
-    100% {
+    60% {
         color: #FF9D00;
     }
+   
 }
 
 .blinkdiv {
@@ -4249,7 +4244,7 @@ header #particles-js {
     color: #FF9D00;
     -webkit-animation-name: blackWhite;
     -webkit-animation-iteration-count: infinite;
-    -webkit-animation-duration: 10s;
+    -webkit-animation-duration: 60s;
 }
 
 .section-work {
@@ -4314,7 +4309,7 @@ section {
     background-color: #F7FAFD;
     box-shadow: 10px 10px 10px rgba(209, 209, 209, 0.03);
     border-radius: 1.5em!important;
-    border: solid 1px #ff9d0081;
+    border: solid 1px #FF9D0081;
     backdrop-filter: blur(40px);
     background-clip: padding-box;
     overflow: auto;
@@ -4330,7 +4325,7 @@ section {
 
 .b-box img {
     /* max-height: 50%!important; */
-    max-width: 80%!important;
+    max-width: 100%!important;
 }
 
 .hover-state:hover {
