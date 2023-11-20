@@ -4287,12 +4287,12 @@ header #particles-js {
 
 .section-work {
   height: auto;
-  position: relative;
-  background-image: url(../images/pexels-henry-&-co-1939485.jpg);
+  /* position: relative;
+  background-image: url(../images/pexels-henry-&-co-1939485.jpg); */
   /* background-repeat: no-repeat; */
-  background-attachment: fixed;
+  /* background-attachment: fixed;
   background-size: cover;
-  background-position: center;
+  background-position: center; */
 }
 
 .section-head {
@@ -4365,7 +4365,7 @@ section {
 .b-box {
   /* padding: 20px; */
   background-color: #f7fafd;
-  box-shadow: 10px 10px 10px rgba(209, 209, 209, 0.03);
+  /* box-shadow: 10px 10px 10px rgba(209, 209, 209, 0.03); */
   border-radius: 1.5em !important;
   border: solid 1px #ff9d0081;
   backdrop-filter: blur(40px);
@@ -4422,6 +4422,7 @@ img {
 .row > * {
   padding-left: 0 !important;
   padding-right: 0 !important;
+
 }
 
 .section-freelance h2 {
@@ -6906,3 +6907,7 @@ iframe {
 
 /* .testi-hero-2 */
 
+
+.spacer{
+  column-gap: 10px;
+}
